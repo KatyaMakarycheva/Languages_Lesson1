@@ -1,7 +1,7 @@
-﻿int NumberA = 3;
+﻿int NumberA = new Random().Next (1,10); // 1,2,3,4,5...
 
-int NumberB = 5;
+int NumberB = new Random().Next (1,10);
 
-int result = NumberA + NumberB;
+Console.WriteLine(NumberA);
 
-Console.WriteLine(result);
+Console.WriteLine(NumberB);
